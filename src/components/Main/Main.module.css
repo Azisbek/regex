@@ -1,0 +1,11 @@
+.blockText {
+  text-align: center;
+  padding: 20px;
+}
+
+.blockText p {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+}

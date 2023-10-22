@@ -1,0 +1,66 @@
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgb(27, 117, 196);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.formBlock label {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+
+.username {
+  border-radius: 10px;
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.email {
+  border-radius: 10px;
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.password {
+  border-radius: 10px;
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  padding: 10px;
+  height: 30px;
+}
+.button {
+  padding: 8px 20px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
